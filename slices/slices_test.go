@@ -24,7 +24,7 @@ func TestRemove(t *testing.T) {
 			B: "B2",
 		},
 	}
-	log.Println(Remove(s, 1))
+	log.Println(Remove(s, 2))
 	log.Println(Remove([]string{
 		"a", "b", "c", "d",
 	}, 1))

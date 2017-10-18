@@ -14,6 +14,9 @@ func Remove(s interface{}, index int) interface{} {
 
 	l := v.Len()
 	index += 1
+	if index > l {
+		panic("index out of bounds")
+	}
 	for ; index < l; index++ {
 		sleft = reflect.Append(sleft, v.Index(index))
 	}
