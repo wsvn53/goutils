@@ -1,6 +1,7 @@
 # goutils
 
-Function utills for golang.
+Useful golang utils.
 
 * Multi-Values utils
 * Slice utils
+* Interface, gateway
