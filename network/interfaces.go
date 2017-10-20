@@ -1,7 +1,7 @@
 package network
 
 import (
-    "../multivalues"
+    "github.com/wsvn53/goutils/multivalues"
     "net"
     "golang.org/x/net/route"
     "reflect"
